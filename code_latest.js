@@ -12,7 +12,7 @@ tlochms(); //Intital Call
 
 
 
-//Date START
+//Date Day_TextMOnth_FullYear END
 setInterval(whatDate, 1000);
 function whatDate() {
 var date = new Date();  //Gets Date
@@ -30,10 +30,12 @@ var y = date.getFullYear(); //Gets Year
 
 finaleDate= d + " " + mo + " " + y; //Writes full date
 
-document.getElementById("date").innerHTML = finaleDate;  //Prints date in id="date"
+document.getElementById("d-d_tmo_fy").innerHTML = finaleDate;  //Prints date in id="date"
 }
 whatDate(); //Intital Call
-//Date END
+//Date Day_TextMOnth_FullYear END
+
+
 
 
 
