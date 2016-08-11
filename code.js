@@ -1,20 +1,25 @@
-//Full Time START
-setInterval(tlochms, 1000);
+//FUNCTIONAL CODE
+//Do not post code here that is not fully tested!
 
+//START init
+function theCall(){
+	tlochms();
+	ddtmofy();
+	
+}
+setInterval(theCall, 1000); //Calls everything every 1 sec (could be a problem when code expands due to reduced efficency)
+theCall();  //Intital Call
+//END init
+
+//START Full Time
 function tlochms() {
     var d = new Date();
     document.getElementById("t-loc-h:m:s").innerHTML=d.toLocaleTimeString();
 }
-tlochms(); //Intital Call
+//END Full Time
 
-//Full Time END
-
-
-
-
-//Date Day_TextMOnth_FullYear END
-setInterval(whatDate, 1000);
-function whatDate() {
+//START Date Day_TextMOnth_FullYear
+function ddtmofy() {
 var date = new Date();  //Gets Date
 
 var day = date.getDate();   //Gets Day
@@ -32,22 +37,14 @@ finaleDate= d + " " + mo + " " + y; //Writes full date
 
 document.getElementById("d-d_tmo_fy").innerHTML = finaleDate;  //Prints date in id="date"
 }
-whatDate(); //Intital Call
-//Date Day_TextMOnth_FullYear END
+//END Date Day_TextMOnth_FullYear
 
 
+//TESTS
+//Everything below this comment is in development/testing - always commit with /* */ around it
 
-
-
-
-
-
-
-
-
-
-
-//Date w/th START
+//Date w/th START --> STILL TESTING, SO COMMENTED OUT
+/*
 setInterval(whatDate, 1000);
 function whatDate() {
 var date = new Date();  //Gets Date
@@ -57,7 +54,7 @@ var d = String(day);    //Converts 'day' to String
 
 var th = "<sup>th</sup>";
 
-/*
+
 		 if (d=1)     //IF day is 1st
    			{th = "<sup>st</sup>";}
 else if (d=21)     //IF day is 21st
@@ -75,7 +72,7 @@ else if (d=3)		//IF day is 3rd
 else if (d=23)		//IF day is 23rd
     {th = "<sup>rd</sup>";}
 else {th = "<sup>th</sup>"}
-*/
+
 
 
 
@@ -93,6 +90,7 @@ document.getElementById("d-ds_tmo_fy").innerHTML = finaleDate;  //Prints date in
 }
 whatDate(); //Intital Call
 //Date w/th END
+*/
 
 
 
@@ -107,7 +105,7 @@ whatDate(); //Intital Call
 
 
 
-/*
+/* MISC
 
 setInterval(updateTime, 1000);
 function updateTime() {
