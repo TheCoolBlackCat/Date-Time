@@ -33,7 +33,7 @@ var mo = monthNames[month];  //Fetches current month from array
 
 var y = date.getFullYear(); //Gets Year
 
-finaleDate= d + " " + mo + " " + y; //Writes full date
+var finaleDate= d + " " + mo + " " + y; //Writes full date
 
 document.getElementById("d-d_tmo_fy").innerHTML = finaleDate;  //Prints date in id="date"
 }
