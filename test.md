@@ -53,7 +53,7 @@ This is merely a breakdown of what the components of the ID name mean.
 
 **`t-`** calls a Time
 
-**`-loc-`** refers to "localisation"
+**`-loc-`** means "localisation"
 
 **`-h:m:s`** specifies Hours : Minutes : Seconds
 
@@ -61,12 +61,6 @@ This is merely a breakdown of what the components of the ID name mean.
 
 **`d-`**  calls a Date
 
-**`d_tmo_fy`** is similar to -h:m:s
-
-**`d`** displays a numerical day
-
-**`tmo`** displays the month as text
-
-**`fy`** displays a full numerical year
+**`d_tmo_fy`** specifies Numerical Date, Textual Month, Full Numerical Year
 
 Go to: [Top](#) | [About](#about) | [Usage](#usage) | [Example](#example) | [Reference](#reference)
