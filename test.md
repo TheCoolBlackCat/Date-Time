@@ -39,7 +39,7 @@ Do not enter any other content in the div, should you need to enter text around 
 		<th>Example</th>
 	</tr>
 	<tr>
-		<th>t-loc-h*:m:*s</th>
+		<th>t-loc-h\:m\:s</th>
 		<td>Time</td>
 		<td>H\:M\:S (localised)</td>
 		<td>16:50:33</td>
@@ -75,7 +75,7 @@ This is merely a breakdown of what the components of the ID name mean.
 
 **-loc-** refers to "localisation"
 
-**-h*:m:*s** specifies Hours : Minutes : Seconds
+**-h\:m\:s** specifies Hours : Minutes : Seconds
 
 &nbsp;
 
