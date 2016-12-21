@@ -31,11 +31,11 @@ Do not enter any other content in the div, should you need to enter text around 
 
 &nbsp;
 
- ID | Type | Result | Example
-----------------------------
-t-loc-h\:m\:s | Time | H:M:S (localised) | 16:50:33
-----------------------------
-d-d_tmo_fy | Date | Date, Month as Text, Full Year | 21 December 2016
+  ID     | Type | Result | Example
+----------|------|-------|---------
+  t-loc-h\:m\:s | Time | H:M:S (localised) | 16:50:33
+----------|------|-------|---------
+d-d_tmo_fy  | Date | Date, Month as Text, Full Year | 21 December 2016
 
 ### Example
 
