@@ -39,41 +39,34 @@ Do not enter any other content in the div, should you need to enter text around 
 	<tr>
 		<th>t-loc-h:m:s</th>
 		<td>Time</td>
-		<td>
-			H:M:S<br />
-			(localised)
-		</td>
-		<td><div id="t-loc-h:m:s"></div></td>
+		<td>H:M:S (localised)</td>
+		<td>16:50:33</td>
 	</tr>
 	<tr>
 		<th>d-d_tmo_fy</th>
 		<td>Date</td>
 		<td>
-			Date<br />
-			Month as Text<br />
+			Date
+			Month as Text
 			Full Year
 		</td>
-		<td><div id="d-d_tmo_fy"></div></td>
+		<td>21 December 2016</td>
 	</tr>
 </table>
 
-<script src="https://thecoolblackcat.github.io/DateTime/code.js"></script>
-
 ### Example
-<p>
-		&lt;!DOCTYPE html&gt;<br />
-		&nbsp;&nbsp;&lt;html&gt;<br />
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;<br /><br />
-		<strong>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div id="t-loc-h:m:s"&gt;<br /><br />
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;script type="text/javascript" src="https://thecoolblackcat.github.io/DateTime/code.js"&gt;&lt;/script&gt;<br /><br />
-		</strong>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt;<br />
-		&nbsp;&nbsp;&lt;/html&gt;
-</p>
+
+	<!DOCTYPE html>
+	<html>
+		<head></head>
+		<body>
+			<div id="t-loc-h:m:s">
+			<script type="text/javascript" src="https://thecoolblackcat.github.io/DateTime/code.js"></script>
+		</body>
+	</html>
 <div id="resultFullExample">
 	<div div id="t-loc-h:m:s"></div>
-	<script src="https://thecoolblackcat.github.io/DateTime/code.js"></script>
+	
 </div>
 
 ### Reference
@@ -97,4 +90,4 @@ This is merely a breakdown of what the components of the ID name mean.
 
 **fy** displays a full numerical year
 
-Go to: [Top](#top) | [About](#about) | [Usage](#usage) | [Example](#example) | [Reference](#reference)
+Go to: [Top](#) | [About](#about) | [Usage](#usage) | [Example](#example) | [Reference](#reference)
