@@ -33,8 +33,8 @@ Do not enter any other content in the div, should you need to enter text around 
 
 ID|Type|Result|Example
 ---|---|---|---
-t-loc-h`:m`:s|Time|H:M:S (localised)|16:50:33
-d-d_tmo_fy|Date|Date, Month as Text, Full Year|21 December 2016
+`t-loc-h:m:s`|Time|H:M:S (localised)|16:50:33
+`d-d_tmo_fy`|Date|Date, Month as Text, Full Year|21 December 2016
 
 ### Example
 
@@ -51,22 +51,22 @@ d-d_tmo_fy|Date|Date, Month as Text, Full Year|21 December 2016
 **Note: ** the following commands have to be used as defined above.
 This is merely a breakdown of what the components of the ID name mean.
 
-**t-** calls a Time
+**`t-`** calls a Time
 
-**-loc-** refers to "localisation"
+**`-loc-`** refers to "localisation"
 
-**-h\:m\:s** specifies Hours : Minutes : Seconds
+**`-h:m:s`** specifies Hours : Minutes : Seconds
 
 &nbsp;
 
-**d-**  calls a Date
+**`d-`**  calls a Date
 
-**d_tmo_fy** is similar to -h:m:s
+**`d_tmo_fy`** is similar to -h:m:s
 
-**d** displays a numerical day
+**`d`** displays a numerical day
 
-**tmo** displays the month as text
+**`tmo`** displays the month as text
 
-**fy** displays a full numerical year
+**`fy`** displays a full numerical year
 
 Go to: [Top](#) | [About](#about) | [Usage](#usage) | [Example](#example) | [Reference](#reference)
