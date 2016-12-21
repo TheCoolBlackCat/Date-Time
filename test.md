@@ -43,7 +43,7 @@ So, I wrote all the code in Date/Time from scratch, and it has kickstarted my le
 		<th>Example</th>
 	</tr>
 	<tr>
-		<th>t-loc-h\:m:s</th>
+		<th>t-loc-h:\m:s</th>
 		<td>Time</td>
 		<td>
 			H:M:S<br />
