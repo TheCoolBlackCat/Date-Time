@@ -17,7 +17,7 @@ Date/Time is currently in early development, and is very basic in terms of what 
 ALWAYS attach the JavaScript BELOW all of the content in the &lt;body&gt; tag!
 The script refrences &lt;div&gt; ids, so they have to be parsed in the browser before the script!
 
-	&lt;script type="text/javascript" src="https://thecoolblackcat.github.io/DateTime/code.js"&gt;&lt;/script&gt;
+	<script type="text/javascript" src="https://thecoolblackcat.github.io/DateTime/code.js"></script>
 
 #### Step 2: Insert the &lt;div&gt; tags with the right ID
 
