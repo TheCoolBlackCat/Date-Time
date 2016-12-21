@@ -12,23 +12,21 @@ So, I wrote all the code in Date/Time from scratch, and it has kickstarted my le
 Date/Time is currently in early development, and is very basic in terms of what it can display.
 
 ### Usage
-<h4>Step 1: Attach the Framework</h4>
-<p>
-	ALWAYS attach the JavaScript BELOW all of the content in the &lt;body&gt; tag!
-	The script refrences &lt;div&gt; ids, so they have to be parsed in the browser before the script!
-</p>
-<code>
-	&lt;script type="text/javascript" src="https://thecoolblackcat.github.io/DateTime/code.js"&gt;&lt;/script&gt;
-</code>
+#### Step 1: Attach the Framework
 
-<h4>Step 2: Insert the &lt;div&gt; tags with the right ID</h4>
-<p>
-	Insert the &lt;div&gt; tags with an id field that specifies what you wish to display.
-	Do not enter any other content in the div, should you need to enter text around it, use CSS to override the default margin/padding settings.
-</p>
-<code>
+ALWAYS attach the JavaScript BELOW all of the content in the &lt;body&gt; tag!
+The script refrences &lt;div&gt; ids, so they have to be parsed in the browser before the script!
+
+	&lt;script type="text/javascript" src="https://thecoolblackcat.github.io/DateTime/code.js"&gt;&lt;/script&gt;
+
+#### Step 2: Insert the &lt;div&gt; tags with the right ID
+
+Insert the &lt;div&gt; tags with an id field that specifies what you wish to display.
+
+Do not enter any other content in the div, should you need to enter text around it, use CSS to override the default margin/padding settings.
+
 	&lt;div id="PLACE ID HERE"&gt;&lt;/div&gt;
-</code>
+
 <table>
 	<tr>
 		<th>ID</th>
@@ -56,6 +54,7 @@ Date/Time is currently in early development, and is very basic in terms of what 
 		<td><div id="d-d_tmo_fy"></div></td>
 	</tr>
 </table>
+
 <script src="https://thecoolblackcat.github.io/DateTime/code.js"></script>
 
 <h3 id="fullexample">Full Example</h3>
@@ -74,38 +73,24 @@ Date/Time is currently in early development, and is very basic in terms of what 
 	<div div id="t-loc-h:m:s"></div>
 	<script src="https://thecoolblackcat.github.io/DateTime/code.js"></script>
 </div>
-<!--
-<h3>Result</h3>
-<div id="result">
-			<div id="t-loc-h:m:s"></div>
-			<div id="t-loc-h:m:s"></div>
-			<script type="text/javascript" src="code.js" />
-</div>-->
-<h3 id="reference">Reference</h3>
-<p>
-	<strong>Note: </strong>the following commands have to be used as defined <a class="intext" href="#usage">above</a>.
-	This is merely a breakdown of what the components of the ID name mean.
-</p>
-<p>
-<strong>t-</strong> calls a Time <br />
-<strong>-loc-</strong> refers to "localisation" <br />
-<strong>-h:m:s</strong> specifies Hours : Minutes : Seconds <br/>
-</p>
-<p>
-<strong>d-</strong>  calls a Date <br />
-<strong>d_tmo_fy</strong> is similar to -h:m:s <br />
-<strong>d</strong> displays a numerical day <br />
-<strong>tmo</strong> displays the month as text <br />
-<strong>fy</strong> displays a full numerical year <br />
-</p>
-<div id="nav">
-Jump to:
-<a href="#top">Top</a>
-<a href="#about">About</a>
-<a href="#usage">Usage</a>
-<a href="#fullexample">Example</a>
-<a href="#reference">Reference</a>
-</div>
-<span id="bottom"></span>
-</body>
-</html>
+
+### Reference
+**Note: **the following commands have to be used as defined above.
+This is merely a breakdown of what the components of the ID name mean.
+
+**t-** calls a Time
+
+**-loc-** refers to "localisation"
+
+**-h:m:s** specifies Hours : Minutes : Seconds
+
+
+**d-**  calls a Date
+
+**d_tmo_fy** is similar to -h:m:s
+
+**d** displays a numerical day
+
+**tmo** displays the month as text
+
+**fy** displays a full numerical year
