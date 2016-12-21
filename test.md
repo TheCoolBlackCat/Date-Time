@@ -27,7 +27,9 @@ Insert the &lt;div&gt; tags with an id field that specifies what you wish to dis
 
 Do not enter any other content in the div, should you need to enter text around it, use CSS to override the default margin/padding settings.
 
-	&lt;div id="PLACE ID HERE"&gt;&lt;/div&gt;
+	<div id="PLACE ID HERE"></div>
+
+&nbsp;
 
 <table>
 	<tr>
