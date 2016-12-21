@@ -1,23 +1,17 @@
 
-<h1>Date/Time</h1>
-<h2>Javascript Framework</h2>
+# Date/Time
+## Javascript Framework
 
-<div id="nav">
-	Jump to:
-	<a href="#about">About</a>
-	<a href="#usage">Usage</a>
-	<a href="#fullexample">Example</a>
-	<a href="#reference">Reference</a>
-	<a href="#bottom">Bottom</a>
-</div>
+### About
+Date/Time is a JavaScript framwork that allows easy incorporation of date and time within a webpage.
 
-<h3 id="about">About</h3>
-<p>Date/Time is a JavaScript framwork that allows easy incorporation of date and time within a webpage.</p>
-<p>I created the framework quite simply because I needed a way to easily (and cleanly) display the date and time on my websites. Previously, I had used hideous-looking embedded JavaScript copied from someone else, and I was unhappy with the space it consumed, and the fact I had no idea what it meant.
-So, I wrote all the code in Date/Time from scratch, and it has kickstarted my learning of JavaScript.</p>
-<p>Date/Time is currently in early development, and is very basic in terms of what it can display.</p>
+I created the framework quite simply because I needed a way to easily (and cleanly) display the date and time on my websites. Previously, I had used hideous-looking embeeded JavaScript copied from someone else, and I was unhappy with the space it used, and the fact I did not understand their code.
 
-<h3 id="usage">Usage</h3>
+So, I wrote all the code in Date/Time from scratch, and it has kickstarted my learning of JavaScript.
+
+Date/Time is currently in early development, and is very basic in terms of what it can display.
+
+### Usage
 <h4>Step 1: Attach the Framework</h4>
 <p>
 	ALWAYS attach the JavaScript BELOW all of the content in the &lt;body&gt; tag!
@@ -43,7 +37,7 @@ So, I wrote all the code in Date/Time from scratch, and it has kickstarted my le
 		<th>Example</th>
 	</tr>
 	<tr>
-		<th>t-loc-h:\m:s</th>
+		<th>t-loc-h:m:s</th>
 		<td>Time</td>
 		<td>
 			H:M:S<br />
@@ -80,9 +74,16 @@ So, I wrote all the code in Date/Time from scratch, and it has kickstarted my le
 	<div div id="t-loc-h:m:s"></div>
 	<script src="https://thecoolblackcat.github.io/DateTime/code.js"></script>
 </div>
+<!--
+<h3>Result</h3>
+<div id="result">
+			<div id="t-loc-h:m:s"></div>
+			<div id="t-loc-h:m:s"></div>
+			<script type="text/javascript" src="code.js" />
+</div>-->
 <h3 id="reference">Reference</h3>
 <p>
-	<strong>Note: </strong>the following commands have to be used as defined <a href="#usage">above</a>.
+	<strong>Note: </strong>the following commands have to be used as defined <a class="intext" href="#usage">above</a>.
 	This is merely a breakdown of what the components of the ID name mean.
 </p>
 <p>
