@@ -2,6 +2,8 @@
 # Date/Time
 ## Javascript Framework
 
+Go to ![About](#About) | ![Usage](#Usage)
+
 ### About
 Date/Time is a JavaScript framwork that allows easy incorporation of date and time within a webpage.
 
