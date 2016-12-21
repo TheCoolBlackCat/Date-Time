@@ -29,8 +29,6 @@ Do not enter any other content in the div, should you need to enter text around 
 
 	<div id="PLACE ID HERE"></div>
 
-&nbsp;
-
 ID|Type|Result|Example
 ---|---|---|---
 `t-loc-h:m:s`|Time|H:M:S (localised)|16:50:33
@@ -57,10 +55,10 @@ This is merely a breakdown of what the components of the ID name mean.
 
 **`-h:m:s`** specifies Hours : Minutes : Seconds
 
-&nbsp;
-
 **`d-`**  calls a Date
 
 **`d_tmo_fy`** specifies Numerical Date, Textual Month, Full Numerical Year
+
+&nbsp;
 
 Go to: [Top](#) | [About](#about) | [Usage](#usage) | [Example](#example) | [Reference](#reference)
