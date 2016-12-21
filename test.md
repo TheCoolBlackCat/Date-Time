@@ -31,30 +31,11 @@ Do not enter any other content in the div, should you need to enter text around 
 
 &nbsp;
 
-<table>
-	<tr>
-		<th>ID</th>
-		<th>Type</th>
-		<th>Result</th>
-		<th>Example</th>
-	</tr>
-	<tr>
-		<th>t-loc-h\:m\:s</th>
-		<td>Time</td>
-		<td>H\\:M\\:S (localised)</td>
-		<td>16:50:33</td>
-	</tr>
-	<tr>
-		<th>d-d_tmo_fy</th>
-		<td>Date</td>
-		<td>
-			Date
-			Month as Text
-			Full Year
-		</td>
-		<td>21 December 2016</td>
-	</tr>
-</table>
+ ID | Type | Result | Example
+----------------------------
+t-loc-h\:m\:s | Time | H:M:S (localised) | 16:50:33
+----------------------------
+d-d_tmo_fy | Date | Date, Month as Text, Full Year | 21 December 2016
 
 ### Example
 
