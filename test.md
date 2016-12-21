@@ -41,7 +41,7 @@ Do not enter any other content in the div, should you need to enter text around 
 	<tr>
 		<th>t-loc-h\:m\:s</th>
 		<td>Time</td>
-		<td>H\:M\:S (localised)</td>
+		<td>H\\:M\\:S (localised)</td>
 		<td>16:50:33</td>
 	</tr>
 	<tr>
