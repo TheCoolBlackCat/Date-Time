@@ -96,3 +96,5 @@ This is merely a breakdown of what the components of the ID name mean.
 **tmo** displays the month as text
 
 **fy** displays a full numerical year
+
+Go to: [Top](#top) | [About](#about) | [Usage](#usage) | [Example](#example) | [Reference](#reference)
