@@ -2,7 +2,7 @@
 # Date/Time
 ## Javascript Framework
 
-Go to [About](#about) | [Usage](#usage) | [Full Example](#fullexample) | [Reference](#reference)
+Go to: [About](#about) | [Usage](#usage) | [Example](#example) | [Reference](#reference)
 
 ### About
 Date/Time is a JavaScript framwork that allows easy incorporation of date and time within a webpage.
@@ -59,7 +59,7 @@ Do not enter any other content in the div, should you need to enter text around 
 
 <script src="https://thecoolblackcat.github.io/DateTime/code.js"></script>
 
-### Full Example
+### Example
 <p>
 		&lt;!DOCTYPE html&gt;<br />
 		&nbsp;&nbsp;&lt;html&gt;<br />
