@@ -39,9 +39,9 @@ Do not enter any other content in the div, should you need to enter text around 
 		<th>Example</th>
 	</tr>
 	<tr>
-		<th>t-loc-h:m:s</th>
+		<th>t-loc-h*:m:*s</th>
 		<td>Time</td>
-		<td>H:M:S (localised)</td>
+		<td>H*:M:*S (localised)</td>
 		<td>16:50:33</td>
 	</tr>
 	<tr>
@@ -66,20 +66,16 @@ Do not enter any other content in the div, should you need to enter text around 
 			<script type="text/javascript" src="https://thecoolblackcat.github.io/DateTime/code.js"></script>
 		</body>
 	</html>
-<div id="resultFullExample">
-	<div div id="t-loc-h:m:s"></div>
-	
-</div>
 
 ### Reference
-**Note: **the following commands have to be used as defined above.
+**Note: ** the following commands have to be used as defined above.
 This is merely a breakdown of what the components of the ID name mean.
 
 **t-** calls a Time
 
 **-loc-** refers to "localisation"
 
-**-h:m:s** specifies Hours : Minutes : Seconds
+**-h*:m:*s** specifies Hours : Minutes : Seconds
 
 &nbsp;
 
