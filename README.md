@@ -43,7 +43,8 @@ ID|Type|Result|Example
 	</html>
 
 ### Reference
-**N.B.** The following commands have to be used as defined above. This is merely a breakdown of what the components of the ID name mean.
+**N.B.** The following commands have to be used as defined above.
+This is merely a breakdown of what the components of the ID name mean.
 
 **`t-`** calls a Time
 
