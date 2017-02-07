@@ -11,12 +11,12 @@ So, I wrote all the code in Date/Time from scratch, and it has kickstarted my le
 Date/Time is currently in early development, and is very basic in terms of what it can display.
 
 ### Usage
-#### Step 1: Attach the Framework
+#### Step 1: Attach/Download the Framework
 
 ALWAYS attach the JavaScript BELOW all of the content in the &lt;body&gt; tag!
 The script refrences &lt;div&gt; ids, so they have to be parsed in the browser before the script!
 
-	<script type="text/javascript" src="https://thecoolblackcat.github.io/DateTime/code.js"></script>
+	<script type="text/javascript" src="https://thecoolblackcat.github.io/DateTime/code.min.js"></script>
 
 #### Step 2: Insert the &lt;div&gt; tags with the right ID
 
@@ -38,7 +38,7 @@ ID|Type|Result|Example
 		<head></head>
 		<body>
 			<div id="t-loc-h:m:s">
-			<script type="text/javascript" src="https://thecoolblackcat.github.io/DateTime/code.js"></script>
+			<script type="text/javascript" src="https://thecoolblackcat.github.io/DateTime/code.min.js"></script>
 		</body>
 	</html>
 
